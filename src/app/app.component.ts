@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import swal from 'sweetalert2';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  private showMessage() {
+    swal('Material Design', 'Exemplo finalizado com sucesso !!!', 'success');
+  }
 }
