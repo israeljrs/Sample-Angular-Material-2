@@ -9,7 +9,7 @@ import swal from 'sweetalert2';
 export class AppComponent {
   title = 'app';
 
-  private showMessage() {
+  showMessage() {
     swal('Material Design', 'Exemplo finalizado com sucesso !!!', 'success');
   }
 }
